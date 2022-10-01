@@ -46,7 +46,7 @@ obj_list = []
 with open("MOCK_DATA.txt", "r", encoding='UTF-8') as data:
     lines = data.readlines()
     for line in lines:
-        fullname = re.findall(r"(?:^[A-Z][a-z-]+\s[A-Za-z-' ]+)", line)
+        fullname = re.findall(r"(?:^[A-Z][a-z-]+\s[A-Za-z-'. ]+)", line)
         fullname = " ".join(fullname)
         email = re.findall(r"(?:[a-z\d]+@[a-z\d-]+\.[a-z\.]+)", line)
         email = ' '.join(email)
