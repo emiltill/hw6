@@ -413,7 +413,7 @@ Nicola	Getley
 Gallagher	Sutworth
 Beltran	Harby
 Candace	Loughney
-Heinrik	Coppock
+Heinrik	Coppock.
 Selle	Goudge
 Krishna	Woodworth
 Milt	Jeratt
